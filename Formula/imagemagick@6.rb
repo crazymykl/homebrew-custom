@@ -10,7 +10,7 @@ class ImagemagickAT6 < Formula
 
   bottle do
     root_url "https://s3.amazonaws.com/crazymykl"
-    sha256 "136abfca8cefa8c7071a7f56e32bcd4064c05a5e8104ce9bc9d8a145273a48a6" => :sierra
+    sha256 "bd97a2995994ff4a802f63a7bb97e707914345d1adcea5d7a58220d097dba84d" => :sierra
   end
 
   option "with-fftw", "Compile with FFTW support"

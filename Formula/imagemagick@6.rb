@@ -4,13 +4,13 @@ class ImagemagickAT6 < Formula
   # Please always keep the Homebrew mirror as the primary URL as the
   # ImageMagick site removes tarballs regularly which means we get issues
   # unnecessarily and older versions of the formula are broken.
-  url "https://s3.amazonaws.com/crazymykl/ImageMagick-6.9.7-3.tar.xz"
-  mirror "https://www.imagemagick.org/download/ImageMagick-6.9.7-3.tar.xz"
-  sha256 "801767344b835b810a5f88c26f062f0fa01a97264dfe9bf5e5adf59a0b5c91a1"
+  url "https://s3.amazonaws.com/crazymykl/ImageMagick-6.9.7-4.tar.xz"
+  mirror "https://www.imagemagick.org/download/ImageMagick-6.9.7-4.tar.xz"
+  sha256 "68842c55ed9c958b84aae17974961cefff4212bf7146f09fd15c09dbdc2d9629"
 
   bottle do
     root_url "https://s3.amazonaws.com/crazymykl"
-    sha256 "136abfca8cefa8c7071a7f56e32bcd4064c05a5e8104ce9bc9d8a145273a48a6" => :sierra
+    sha256 "bd97a2995994ff4a802f63a7bb97e707914345d1adcea5d7a58220d097dba84d" => :sierra
   end
 
   option "with-fftw", "Compile with FFTW support"
